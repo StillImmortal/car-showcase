@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-      <link rel="icon" href={"/images/favicon.png"} />
+      <link rel="icon" href={"/images/logo-sm.svg"} />
       </head>
       <body className={`${inter.className} relative bg-[#111111]`}>
         <Providers>

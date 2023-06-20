@@ -14,8 +14,8 @@ const Navbar = () => {
             className="object-contain"
             src={"/images/logo.svg"}
             alt="Drive Hub Logo"
-            width={100}
-            height={20}
+            width={180}
+            height={60}
           />
         </Link>
 

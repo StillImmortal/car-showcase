@@ -12,8 +12,8 @@ const Footer = () => {
             className="object-contain"
             src={"/images/logo.svg"}
             alt="logo"
-            width={100}
-            height={20}
+            width={180}
+            height={60}
           />
           <p className="text-base text-gray-400">
             DriveHub 2023 
