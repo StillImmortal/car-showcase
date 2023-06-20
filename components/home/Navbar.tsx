@@ -22,7 +22,7 @@ const Navbar = () => {
         <CustomButton 
           title="Sign in"
           btnType="button"
-          containerStyles="py-2 px-4 transition-all bg-[#111111] hover:bg-opacity-90 border-transparent text-gray-200"
+          containerStyles="py-2 px-4 transition-all bg-[#111111] text-lg hover:bg-opacity-90 border-transparent text-gray-200"
         />
       </nav>
     </header>

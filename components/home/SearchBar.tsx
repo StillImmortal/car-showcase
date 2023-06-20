@@ -31,6 +31,7 @@ import { Input } from "@/components/ui/input"
 
 import { manufacturers } from '@/constants'
 import { isEqualStrings } from '@/utils'
+import CarIcon from './CarIcon'
 
 const SearchBar = () => {
   const form = useForm<SearchBarInputs>()
@@ -59,7 +60,7 @@ const SearchBar = () => {
                         )}
                     >
                       <span className='flex items-center gap-2'>
-                        <SiVolkswagen />
+                        <CarIcon />
                         {field.value
                           ? manufacturers.find(
                               (manufacturer) => isEqualStrings(manufacturer, field.value)
